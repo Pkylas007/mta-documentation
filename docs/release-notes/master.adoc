@@ -32,9 +32,8 @@ include::topics/ref_known-issues-7-2-2.adoc[leveloffset=+2]
 
 
 //snippets required for release notes and other locations
-// include::topics/analysis-dependency-rule-snippet.adoc[]
 
-// include::topics/analyzer-rbac-known-issue-snippet.adoc[]
+include::topics/analyzer-rbac-known-issue-snippet.adoc[]
 
 // include::topics/svn-checkout-fails-issue-snippet.adoc[]
 

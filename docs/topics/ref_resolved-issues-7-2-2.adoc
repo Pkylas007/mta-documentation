@@ -10,8 +10,8 @@
 
 This section provides highlighted issues that have been resolved in {ProductFullName} 7.2.2.
 
-.Tags are not accessible in SVN repositories
+.Dependency rule of a custom rules file in analysis is not fired
 
-In previous versions of {ProductShortName}, when retrieving source code from Subversion (SVN) repositories, addons were automatically adding `/trunk` or `/branches/<target_branch>` to the repository URL, making it impossible to check out anything under tags. This issue has been resolved in the {ProductShortName} 7.2.0. link:https://issues.redhat.com/browse/MTA-4236[(MTA-4236)]
+In previous versions of {ProductShortName}, a custom dependency rule was not fired, and no related migration issue was found. This issue has been resolved in the {ProductShortName} 7.2.2. link:https://issues.redhat.com/browse/MTA-3863[(MTA-3863)]
 
-For a complete list of all resolved issues, see the list of link:https://issues.redhat.com/issues/?filter=12447875[{ProductShortName} 7.2.0 resolved issues] in Jira.
+For a complete list of all resolved issues, see the list of link:https://issues.redhat.com/issues/?filter=12455743[{ProductShortName} 7.2.2 resolved issues] in Jira.
