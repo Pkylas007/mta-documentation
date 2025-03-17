@@ -6,7 +6,5 @@
 
 This section provides highlighted known issues in {ProductFullName} version 7.2.2.
 
-.{ProductShortName} CLI analysis using the CLI in container and containerless modes periodically fails on Windows
-
-{ProductShortName} [CLI] analysis using the CLI in container and containerless modes periodically fails on Microsoft Windows and returns a `provider does not have dependency capability` error. This failure is caused by the existence of a corrupted `.metadata` folder located inside the directory where the analysis is run. Therefore, the workaround is to delete this folder. This issue is planned to be resolved in {ProductShortName} 7.2.1. link:https://issues.redhat.com/browse/MTA-4410[(MTA-4410)]
-
+.Custom targets are not displayed in the `Application Analysis` wizard
+In the `Application Analysis` tab, even if you select a repository-based custom target in the `Set Target` step, the custom target is not displayed on the review page. link:https://issues.redhat.com/browse/MTA-3438[(MTA-3438)]

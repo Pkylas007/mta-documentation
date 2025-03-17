@@ -14,4 +14,16 @@ This section provides highlighted issues that have been resolved in {ProductFull
 
 In previous versions of {ProductShortName}, a custom dependency rule was not fired, and no related migration issue was found. This issue has been resolved in the {ProductShortName} 7.2.2. link:https://issues.redhat.com/browse/MTA-3863[(MTA-3863)]
 
+.Analyze custom targets using the MTA CLI
+
+Previously, {ProductShortName} CLI did not permit referring to custom target by using the `--target` flag. Analysis failed even if custom rules were available for the custom target. This issue has been resolved in {ProductShortName} 7.2.2. You can now refer to a custom target so that only rules with the custom target are executed. 
+link:https://issues.redhat.com/browse/MTA-4629[(MTA-4629)]
+
+.Automate quick fixes in IntelliJ IDE using MTA plugin 
+link:https://issues.redhat.com/browse/MTA-2460[(MTA-2460)] 
+
+.Enable or disable imported questionnaires to assess applications
+Previously, when you enabled or disabled the legacy questionnaire after importing a second questionnaire, the toggle action was applied on the imported questionnaire instead of the legacy questionnaire. This issue has been resolved in {ProductShortName} 7.2.2. link: https://issues.redhat.com/browse/MTA-4630[(MTA-4630)]
+
 For a complete list of all resolved issues, see the list of link:https://issues.redhat.com/issues/?filter=12455743[{ProductShortName} 7.2.2 resolved issues] in Jira.
+
