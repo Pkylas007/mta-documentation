@@ -6,5 +6,14 @@
 
 This section provides highlighted known issues in {ProductFullName} version 7.2.2.
 
-.Custom targets are not displayed in the `Application Analysis` wizard
-In the `Application Analysis` tab, even if you select a repository-based custom target in the `Set Target` step, the custom target is not displayed on the review page. link:https://issues.redhat.com/browse/MTA-3438[(MTA-3438)]
+.Analyze custom targets using the MTA CLI
+
+Previously, {ProductShortName} CLI did not permit referring to custom target by using the `--target` flag. Analysis failed even if custom rules were available for the custom target. This issue has been resolved in {ProductShortName} 7.2.2. link:https://issues.redhat.com/browse/MTA-4629[(MTA-4629)]
+
+.Automate quick fixes in IntelliJ IDE using MTA plugin 
+link:https://issues.redhat.com/browse/MTA-2460[(MTA-2460)] 
+
+
+//.Dependency rule of a custom rules file in analysis is not fired (resolved issue in 7.3.0)
+
+//In previous versions of {ProductShortName}, a custom dependency rule was not fired, and no related migration issue was found. This issue has been resolved in the {ProductShortName} 7.2.2. link:https://issues.redhat.com/browse/MTA-3863[(MTA-3863)]
