@@ -6,7 +6,7 @@
 [id="mta-requirements-for-java-analyzer_{context}"]
 = Adding minimum requirements for Java analyzer and discovery
 
-There is a minimum requirement for the Java analyzer, and also the discovery task, which by default is set to 2.5 GB.
+The default minimum requirement for the Java analyzer, and also the discovery task, is set to 2.5 GB by default.
 
 While this minimum requirement can be lowered to 1.5 GB, it is not recommended.
 
