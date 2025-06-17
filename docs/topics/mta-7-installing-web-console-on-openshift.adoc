@@ -159,7 +159,7 @@ The most commonly used CR settings are listed in this table:
 |Minimum number of CPUs the pod needs to run
 
 |`analyzer_container_requests_memory`
-|`1Gi`
+|`512Mi`
 |Minimum amount of memory the pod needs to run
 
 |`ui_container_limits_cpu`
