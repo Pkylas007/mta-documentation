@@ -8,24 +8,26 @@
 
 This section provides the following bug fixes and resolves issues and other problems that have a significant impact on the {ProductFullName} 7.3.1.
 
+.Repeated analysis of large `.EAR` binary files now obtains consistent results
+Previously, for binary application analysis, {ProductShortName} relied on Maven search index to determine whether dependencies are internal to the application or whether the application was installed as an open-source dependency. Depending on the availability of the Maven search index, an open-source dependency was considered internal to the application and included it as a dependency in the analysis results. In this case, analysis returned more incidents and greater effort to address issues found in dependencies. This issue has been resolved in {ProductShortName} 7.3.1. link:https://issues.redhat.com/browse/MTA-5588[(MTA-5588)]
+
 //track if the bug is resolved
 .{ProductShortName} reports generated after a {CLIName} analysis now display the issue description
 Previously, after running an analysis in the {CLIName}, {ProductShortName} displayed the incident message instead of an issue description for issues listed in the static report. This issue has been resolved in {ProductShortName} 7.3.1. link:https://issues.redhat.com/browse/MTA-5293[(MTA-5293)]
 
-.{ProductShortName} now analyzes Java applications without false positives
-Previously, {ProductShortName} sometimes generated false positive by matching `line 1` of a Java file. This issue has been resolved in {ProductShortName} 7.3.1. link:https://issues.redhat.com/browse/MTA-4918[(MTA-4918)]
-
+//track if the bug is resolved
 .{ProductShortName} {WebName} now completes application analysis in clusters with low resources
 Previously, when you ran containerized application analysis in a cluster with slower disk I/O or low storage, the tech discovery took longer and the analysis failed because the rule execution timed out. This issue has been resolved in {ProductShortName} 7.3.1. link:https://issues.redhat.com/browse/MTA-5369[(MTA-5369)]
 
-.{ProductShortName} now runs Java rules when analyzing Java binaries in Windows
-Previously, when you performed a containerless analysis of compiled Java applications in Windows, {ProductShortName} did not match a Java rule and generated a Java Model (code 969) error. As a result, some rules did not trigger issues in the analysis report. This issue has been resolved in {ProductShortName} 7.3.1. link:https://issues.redhat.com/browse/MTA-5370[(MTA-5370)]
-
-.{ProductShortName} now analyzes non-Java applications in containerized mode
-Previously, {ProductShortName} analyzed non-Java applications in containerless mode unless the `--run-local` flag was manually set to `false`. This issue has been resolved in {ProductShortName} 7.3.1. link:https://issues.redhat.com/browse/MTA-5068[(MTA-5068)]
-
-.{ProductShortName} {CLIName} now lists languages for binary applications
-Previously, the `--list-languages` flag did not list languages for binary applications in the {ProductShortName} {CLIName}. This issue has been resolved in {ProductShortName} 7.3.1. link:https://issues.redhat.com/browse/MTA-5089[(MTA-5089)]
-
 .Custom rules are now triggered for applications without the `pom` file
 Previously, {ProductShortName} did not trigger custom rules for applications without the `pom` file. This issue has been resolved in {ProductShortName} 7.3.1. link:https://issues.redhat.com/browse/MTA-5049[MTA-5049]
+
+.{ProductShortName} now triggers custom rules for application analysis
+Previously, {ProductShortName} did not trigger custom rules when analyzing applications. This issue has been resolved in {ProductShortName} 7.3.1. link:https://issues.redhat.com/browse/MTA-4885[(MTA-4885)] 
+
+.{ProductShortName} now analyzes Java applications without false positives
+Previously, {ProductShortName} sometimes generated false positive by matching `line 1` of a Java file. This issue has been resolved in {ProductShortName} 7.3.1. link:https://issues.redhat.com/browse/MTA-4918[(MTA-4918)]
+
+//track if the bug is resolved
+.{ProductShortName} now runs Java rules when analyzing Java binaries in Windows
+Previously, when you performed a containerless analysis of compiled Java applications in Windows, {ProductShortName} did not match a Java rule and generated a Java Model (code 969) error. As a result, some rules did not trigger issues in the analysis report. This issue has been resolved in {ProductShortName} 7.3.1. link:https://issues.redhat.com/browse/MTA-5247[(MTA-5247)]

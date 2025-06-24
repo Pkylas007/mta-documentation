@@ -13,3 +13,6 @@ When you analyze Java binaries in Windows, {ProductShortName} {CLIName} generate
 
 .{ProductShortName} {CLIName} does not detect dependencies for Gradle projects
 When you analyze Gradle projects in containerless mode, the {ProductShortName} {CLIName} does not detect dependencies during analysis. link:https://issues.redhat.com/browse/MTA-4033[(MTA-4033)]
+
+
+link:https://issues.redhat.com/browse/MTA-5203
