@@ -29,7 +29,7 @@ Previously, {ProductShortName} did not trigger custom rules when analyzing appli
 Previously, {ProductShortName} sometimes generated false positive by matching `line 1` of a Java file. This issue has been resolved in {ProductShortName} 7.3.1. link:https://issues.redhat.com/browse/MTA-4918[(MTA-4918)]
 
 .{ProductShortName} {CLIName} analysis is now optimized for multi-module binaries with dependencies
-Previously, when you analyzed multi-module binaries in the {ProductShortName} {CLIName}, the analysis could take a long time to complete if dependency resolution fails. This issue has been resolved in {ProductShortName} 7.3.1. link:link:https://issues.redhat.com/browse/MTA-5398[(MTA-5398)]
+Previously, when you analyzed multi-module binaries in the {ProductShortName} {CLIName}, the analysis could take a long time to complete if dependency resolution fails. This issue has been resolved in {ProductShortName} 7.3.1. link:https://issues.redhat.com/browse/MTA-5398[(MTA-5398)]
 
 //track if the bug is resolved
 .{ProductShortName} {CLIName} now allows disabling dependency rules for analysis 
