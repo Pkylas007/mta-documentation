@@ -21,6 +21,8 @@ include::topics/making-open-source-more-inclusive.adoc[]
 [id="mta-7-3-1"]
 == {ProductShortName} 7.3.1
 
+include::topics/ref_new-features-7-3-1.adoc[leveloffset=+2]
+
 include::topics/ref_fixed-issues-7-3-1.adoc[leveloffset=+2]
 
 include::topics/ref_known-issues-7-3-1.adoc[leveloffset=+2]
