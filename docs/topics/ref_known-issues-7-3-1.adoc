@@ -17,7 +17,7 @@ When you analyze Gradle projects in containerless mode, the {ProductShortName} {
 .{ProductShortName} {WebName} static reports do not display rule description in incidents
 In incidents that are found in the static report after analysis, {ProductShortName} {WebName} does not describe the rule that triggered the incident. link:https://issues.redhat.com/browse/MTA-5643[(MTA-5643)]
 
-`.NET` Framework application analysis fails in the {ProductShortName} {CLIName}
+.`.NET` Framework application analysis fails in the {ProductShortName} {CLIName}
 
 When you analyze `.NET` Framework applications in Windows containers by using the {ProductShortName} {CLIName}, the analysis fails for the following environment variables:
 
