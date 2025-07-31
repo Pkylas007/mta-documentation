@@ -3,7 +3,7 @@
 // * docs/cli-guide/master.adoc
 
 :_content-type: CONCEPT
-[id="intro-to-the-cli_{context}"]
+[id="intro-to-the-developer-lightspeed_{context}"]
 = Introduction to the {ProductShortName} Developer Lightspeed
 
 Starting from 8.0.0, you can use {ProductFullName} Developer Lightspeed for application modernization in your organization by running Artificial Intelligence-driven static code analysis for Java applications. Developer Lightspeed gains context for an analysis from historical changes to source code through previous analysis (called solved examples) and the description of issues available in both default and custom rule sets. Thus, when you deploy Developer Lightspeed for analyzing your entire application portfolio, it enables you to be consistent with the common fixes you need to make in the source code of any Java application. It also enables you to control the analysis through manual reviews of the suggested AI fixes by accepting or rejecting the changes, while reducing the overall time and effort required to prepare your application for migration.
