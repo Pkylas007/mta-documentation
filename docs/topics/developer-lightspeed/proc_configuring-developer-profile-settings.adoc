@@ -13,7 +13,8 @@ Starting from {ProductFullName} 7.2.0, you can perform an application analysis i
 //need to check how the user provides LLM credentials and write a new proc if needed
 * You provided LLM credentials to enable generative AI for the {ProductShortName} extension in `settings.json` file. 
 * You installed the {ProductShortName} distribution version 8.0.0 in your system. 
-* You installed the latest version of Language Support for Java(TM) by Red Hat.
+* You installed the latest version of Language Support for Java(TM) by Red Hat extension in VS Code.
+//check if users still need Java 17+ in their system since Language Support extension is already a req.
 * You installed Jave 17+ and Maven 3.9.9+ in your system. 
 * You opened a Java project in your VS Code workspace.
 
