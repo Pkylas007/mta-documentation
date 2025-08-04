@@ -1,0 +1,43 @@
+:_newdoc-version: 2.18.3
+:_template-generated: 2025-02-26
+:_mod-docs-content-type: PROCEDURE
+
+[id="configuring-developer-lightspeed-profile-settings_{context}"]
+= Configuring the {mta-dl-plugin} profile settings
+
+Starting from {ProductFullName} 7.2.0, you can perform an application analysis in the containerless mode. Before running the analysis, you must create and configure the `.kantra` directory.
+
+.Prerequisites
+
+* You installed the {ProductShortName} extension version 8.0.0 in VS Code. 
+//need to check how the user provides LLM credentials and write a new proc if needed
+* You provided LLM credentials to enable generative AI for the {ProductShortName} extension in `settings.json` file. 
+* You installed the {ProductShortName} distribution version 8.0.0 in your system. 
+* You installed the latest version of Language Support for Java(TM) by Red Hat.
+* You installed Jave 17+ and Maven 3.9.9+ in your system. 
+* You opened a Java project in your VS Code workspace.
+
+.Procedure
+
+. Open the `Konveyor View Analysis` page in either of the following ways: 
++
+.. Click the screen icon on the `Konveyor Issues` pane of the {ProductShortName} extension. 
+.. Type `Ctrl + Shift + P` on the search bar to open the Command Palette and enter `Konveyor:Open Konveyor Analysis View`.
++
+. Click the settings button on the `Konveyor View Analysis` page to configure a profile for your project.
+The `Get Ready to Analyze` pane has the basic configurations required for an analysis. All configurations can be edited on the `Profile Manager` page.
++
+. Create a profile that you can reuse for multiple analyses. The profile name is part of the context provided to the LLM for analysis. 
++
+. Configuring analysis arguments such as source or target technologies is necessary to determine which rules apply to the project during analysis. If you want to use a custom rule that specifies a label for a new source or a target technology, you can enter the same label to create the source/target technology for Kai.
++
+. User has an option to enable default rules and select custom rules. The Konveyor extension allows you to add custom rules to the analyzer. This is useful when you want to apply your own rules during analysis.
++
+. Set up the Generative AI key for your project. This step will open the `provider-settings.yaml` file. By default, Kai is configured to use OpenAI. To change the model, update the anchor `&active` to the desired block. Modify this file with the required arguments, such as the model and API key, to complete the setup. 
++
+. Once the profile configuration is done, close the `Get Ready to Analyze` pane, select the profile from the dropdown, and click the start server button. 
+Logs are collected at output channel named konveyor-analyzer.
+
+.Verification
+
+* Verify that you created and configured the `.kantra` directory correctly by running the application analysis. For more information, see xref:analyzing-projects-with-vs-code-extension_vsc-extension-guide[Analyzing your projects with the MTA extension].
