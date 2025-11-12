@@ -15,7 +15,7 @@ In the {ProductShortName} {WebName}, if you disable the `Allow insecure connecti
 No known workaround exists.  
 link:https://issues.redhat.com/browse/MTA-6263[MTA-6263]
 
-.{ProductShortName} assessment form malfunctions when you use it with a custom questinnaire 
+.{ProductShortName} assessment form malfunctions when you use it with a custom questionnaire 
 
 In the {ProductShortName} {WebName}, selecting an answer to a question in the assessment form generated from a custom questionnaire causes the form to select an option available for another question.
 
