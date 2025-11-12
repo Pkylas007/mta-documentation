@@ -19,8 +19,7 @@ link:https://issues.redhat.com/browse/MTA-6263[MTA-6263]
 
 In the {ProductShortName} {WebName}, selecting an answer to a question in the assessment form generated from a custom questionnaire causes the form to select an option available for another question.
 
-No known workaround exists. 
-link:https://issues.redhat.com/browse/MTA-6262[MTA-6262]
+Workaround: ensure that one or more `order` keys listed in a section, for example `answers`, have a unique order number. link:https://issues.redhat.com/browse/MTA-6262[MTA-6262]
 
 .{ProductShortName} does not trigger a violation for open source dependencies in Gradle applications 
 
