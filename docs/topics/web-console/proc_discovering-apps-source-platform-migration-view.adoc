@@ -24,11 +24,15 @@ After you configure a source platform, you can discover and import one or more a
 +
 The discovery process imports all or selected applications that are deployed in the source platform instance to the *Applications Inventory* page on {ProductShortName}. 
 
-. Click *Add a name* to enter one application per text field and click *+* to add many applications. For example, app-a.
+. Select the platform from the drop-down list for application discovery.
 
-. Click *Add a space* to enter one space per text field and click *+* to add many spaces. For example, space1.
+. Click *Next* to navigate to the *Filters*.
 
-. Click *Add an organization* to enter one organization per text field and click *+* to add many organizations. For example, org1.
+. Click *+Add a name* to enter one application per text field and repeat the process to add more than one application. For example, app-a.
+
+. Click *+Add a space* to enter one space per text field and repeat the process to add more than one space. For example, space1.
+
+. Click *+Add an organization* to enter one organization per text field and  repeat the process to add more than one organization. For example, org1.
 +
 
 [NOTE]
@@ -44,4 +48,4 @@ This action tiggers an application import task.
 
 . Close the *Discover applications* window.
 +
-. Optional: Hover over the source platform name to check the status of the application import task and click the application import task to view the task details in YAML format.
+. Optional: Click the application import task to check the status of the  task and to view the task details in YAML format.
