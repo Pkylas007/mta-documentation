@@ -28,11 +28,11 @@ The discovery process imports all or selected applications that are deployed in 
 
 . Click *Next* to navigate to the *Filters*.
 
-. Click *+Add a name* to enter one application per text field and repeat the process to add more than one application. For example, app-a.
+. Optional: Click *+Add a name* to enter one application per text field and repeat the process to add more than one application. For example, app-a.
 
-. Click *+Add a space* to enter one space per text field and repeat the process to add more than one space. For example, space1.
+. Optional: Click *+Add a space* to enter one space per text field and repeat the process to add more than one space. For example, space1.
 
-. Click *+Add an organization* to enter one organization per text field and  repeat the process to add more than one organization. For example, org1.
+. Click *+Add an organization* to enter at least one organization per text field and  repeat the process to add more than one organization. For example, org1.
 +
 
 [NOTE]
