@@ -62,7 +62,7 @@ In addition, searche patterns that do not contain Fully Qualified Names (FQN) do
 ----
     java.referenced:
       location: CONSTRUCTOR_CALL
-      pattern: UnavailableException(Servlet,String)
+      pattern: UnavailableException(Servlet s,String str)
 ----
 
 No known workaround exists.
