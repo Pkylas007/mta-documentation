@@ -112,8 +112,6 @@ To exclude incidents for all such open source dependencies, you can use `--dep-l
 
 The Java provider in the analyzer can also add an exclude label to a list of packages. To exclude all such packages, you can use `--dep-label-selector` and the `!` operator as follows:
 
-<<<<<<<< HEAD:docs/topics/ref_yaml-rule-labels.adoc
 `konveyor-analyzer ... --dep-label-selector !konveyor.io/exclude`
-========
+
 `mta-cli ... --dep-label-selector !konveyor.io/exclude`
->>>>>>>> a09e56b (MTA-5290 Modularized Rule Development Guide):docs/topics/rules-development/yaml-rule-labels.adoc
