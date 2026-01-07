@@ -17,7 +17,7 @@ when(condition)
 ----
 .Procedure
 
-. In the `/home/<USER>/` directory, create a file containing the basic syntax for YAML rules as follows:
+. Create a file containing the basic syntax for YAML rules as follows:
 +
 [source,terminal]
 ----

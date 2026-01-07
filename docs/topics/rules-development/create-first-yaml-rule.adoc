@@ -7,11 +7,11 @@
 = Creating a YAML rule
 
 [role="_abstract"]
-This section guides you through the process of creating and testing your first {ProductShortName} YAML-based rule. This assumes that you have already installed {ProductShortName}. See link:{ProductDocUserGuideURL}/index#installing_and_running_the_cli[Installing and running the CLI] in the _{UserCLIBookName}_ for installation instructions.
+You can create and test your first {ProductShortName} YAML-based rule by completing the following procedure. This assumes that you have already installed {ProductShortName}. See link:{ProductDocUserGuideURL}/index#installing_and_running_the_cli[Installing and running the CLI] in the _{UserCLIBookName}_ for installation instructions.
 
 In this example, you will create a rule to discover instances where an application defines a `jboss-web.xml` file containing a `<class-loading>` element and to provide a link to the documentation that describes how to migrate the code.
 
-* Create a YAML file for your first rule.
+. Create a YAML file for the rule. In the following example, the rule is created in your `$HOME` directory.
 
 [options="nowrap",subs="attributes+"]
 ----
